@@ -14,6 +14,10 @@ crash.log
 #
 # example.tfvars
 
+# id rsa keys
+mykey
+mykey.pub
+
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
 override.tf
