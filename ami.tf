@@ -1,4 +1,4 @@
-resource aws_ami "ubuntu-jenkins" {
+data aws_ami "ubuntu-jenkins" {
   most_recent = true
 
   filter {
