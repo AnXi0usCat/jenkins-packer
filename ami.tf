@@ -27,4 +27,7 @@ resource "aws_instance" "jenkins-instance" {
 
   # the public SSH key
   key_name = aws_key_pair.jenkins-keys.key_name
+
+  # user data
+  user_data = data.cloudinit_config.cloudinit-jenkins.rendered
 }
